@@ -1,0 +1,19 @@
+{
+  "name": "research-publications-collector",
+  "version": "1.0.0",
+  "description": "Compiles public data about Research publications into one file.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "nodemonConfig": {
+      "ignore": ["output/*"]
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.11",
+    "nodemon": "^2.0.22"
+  }
+}

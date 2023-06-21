@@ -1,0 +1,48 @@
+npm start
+
+> research-publications-collector@1.0.0 start
+> node index.js
+
+Fetches all publications from research.chalmers.se public API and writes to JSON file.
+Pages results with start and max parameters.
+fetch_command: 335.985ms
+Publications in total: 87484
+fetch_command: 50.393s
+Current number of fetched publications: 10000
+start = 10000
+segment: 50.409s
+fetch_command: 48.348s
+Current number of fetched publications: 20000
+start = 20000
+segment: 48.385s
+fetch_command: 41.823s
+Current number of fetched publications: 30000
+start = 30000
+segment: 41.833s
+fetch_command: 33.045s
+Current number of fetched publications: 40000
+start = 40000
+segment: 33.109s
+fetch_command: 32.625s
+Current number of fetched publications: 50000
+start = 50000
+segment: 32.641s
+fetch_command: 30.753s
+Current number of fetched publications: 60000
+start = 60000
+segment: 30.807s
+fetch_command: 24.198s
+Current number of fetched publications: 70000
+start = 70000
+segment: 24.199s
+fetch_command: 22.752s
+Current number of fetched publications: 80000
+start = 80000
+segment: 22.765s
+fetch_command: 15.057s
+Current number of fetched publications: 87484
+start = 90000
+All publications fetched. Publications in array: 87484, diff: 0
+publications_all: 4:59.223 (m:ss.mmm)
+Writing JSON to ./output/all_research_data.json
+segment: 18.810s
